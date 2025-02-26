@@ -2,12 +2,12 @@
 
 int main(){
 
-    char caracetere;
+    char caractere;
 
     printf("Digite um caractere:\n");
-    scanf("%c", &caracetere);
+    scanf("%c", &caractere);
 
-    switch (caracetere)
+    switch (caractere)
     {
     case '.':
         printf("O caractere eh um ponto.\n");
