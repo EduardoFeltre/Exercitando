@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+
     
     float a1, b1, c1, a2, b2, c2;
     float D;
@@ -22,6 +23,18 @@ int main(){
             printf("O sistema nao tem solucao.\n");
         }
     }
+
+
+    float a, b, c;
+
+    printf("Digite 3 numeros a seguir\n");
+    scanf("%f %f %f", &a, &b, &c);
+
+    if(a + b > c && a + c > b && b + c > a)
+        printf("Os numeros %.2f %.2f %.2f podem formar um triangulo", a, b, c);
+    else
+        printf("Os numeros nao formam um triangulo");
+
 
     return 0;
 }
